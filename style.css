@@ -1,10 +1,17 @@
 body {
     height: 100vh;
     margin: 0;
+    padding: 0;
     overflow: scroll;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
+    background-image: url("./images/city-night.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
 }
 
 ul {
@@ -26,6 +33,11 @@ footer {
     justify-content: space-between;
 }
 
+.logo {
+    font-size: 24px;
+    font-display: #E5E7EB;
+}
+
 .right-links {
     display: flex;
     gap: 15px;
@@ -34,6 +46,10 @@ footer {
 .body {
     display: flex;
     flex-direction: column;
+}
+
+.main {
+
 }
 
 .random-info {
